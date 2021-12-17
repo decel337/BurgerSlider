@@ -4,6 +4,7 @@
     --border-element-color: #0000ffff;
     --black-color: #000;
     --border-element-hover-color: #6495edff;
+    --button-slide-hover-color: #ffffff7f;
     --backdrop-color: #6495ed7d;
     --button-color: #616161;
     --invisible-black-color: #0000007f;
@@ -151,17 +152,18 @@ body {
 }
 
 .button_slide {
-    background-color: var(--button-color);
-    border: 1px solid var(--black-color);
-    border-radius: 50%;
+    line-height: 500px;
     font-size: 30px;
-    height: auto;
+    height: 500px;
     position: absolute;
     text-align: center;
-    top: 40%;
-    transform: translateY(50%);
-    width: 40px;
+    top: 0;
+    width: 100px;
     z-index: 1;
+}
+
+.button_slide:hover {
+    background: var(--button-slide-hover-color);
 }
 
 .left-button {

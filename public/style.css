@@ -107,6 +107,7 @@ body {
     }
 
     .element {
+        border-right: none;
         color: var(--element-text-color);
         display: block;
         font-family: 'Roboto', sans-serif;
